@@ -1,0 +1,40 @@
+
+#canvas {
+  background:rgb(51, 51, 51);
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:500px;
+  height:400px;
+  box-shadow:0px 0px 30px #cccccc;
+  border-radius:20px;
+}
+#canvas:hover {
+  cursor:pointer;
+}
+button {
+  outline: 0 none;
+  box-shadow: 1px 1px 1px #cccccc;
+  border:0px;
+  background:#000000;
+  font-size:1em;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius:5px;
+  display: inline-block;
+  font-variant:small-caps;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(252, 252, 252);
+  margin-left:10px;
+}
+
+button:hover {
+  background-color:#a1a1a1;
+  cursor:pointer;
+}
+#button-menu {
+  width:480px;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
